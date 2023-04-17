@@ -1,0 +1,115 @@
+.header{
+    background-color: rgb(231, 151, 217);
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+    color: white;
+    box-shadow: inset 10px 0 30px 10px #f5baf4;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #be4bb1;
+    box-shadow: inset 10px 0 30px 10px #d9a9d7;
+}
+.topnav a{
+    float: left;
+    text-align: center;
+    padding: 2% 2%;
+    font-size:x-large;
+    text-decoration: none;
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+
+} 
+.topnav a:hover{
+    background-color: #cfa0ca;
+    
+}
+/* .info{
+    float: right;
+} */
+
+.main{
+    float: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: inset 10px 0 30px 10px #5b7242;
+    padding: 2%;
+    /*margin: 2%;*/
+    width: 25%;
+    min-width: 15em;
+    position: relative;
+    background-color: #ccf2a4;
+    opacity: 0.7;
+    color: #be4bb1;
+
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.desc {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    box-sizing: border-box;
+}
+.photospace{
+    float: left;
+    width: 25%;
+    padding: 5px;
+    border: 1px solid rgba(231, 151, 217, 0.5);
+    
+}
+@media only screen and (max-width:700px) {
+    .photospace{
+        width:47%;
+        margin: 5px;
+    }
+    .main{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .photospace{
+        width:100%;
+        margin: 5px;
+    }
+}
+
+/* img{
+    float:right;
+    width: 15%;
+    margin: 5px;
+} */
+/* .violinimg{
+    transform: rotate(-90deg);
+    width: 15%;
+    float:left;
+    margin: 5px;
+}
+ */
+ footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    float: none;
+    position:fixed;
+    bottom: 0%;
+ }
+
+ .page2{
+    background-color: #c6b3c4;
+ }
+iframe{
+    width: 75vw;
+    height: 75vh;
+}
+.sketchfab-embed-wrapper iframe{
+   width: fit-content;
+   height: auto;
+   margin-left: 100 px;
+}
